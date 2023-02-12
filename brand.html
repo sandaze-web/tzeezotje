@@ -111,7 +111,7 @@
     </div>
     <!-- /.nav-mobile -->
     
-    <header class="header p10">
+    <header class="header">
         <div class="container">
             <div class="header-inner">
                 <div class="header-logoBx">
@@ -166,7 +166,10 @@
                 </div>
                 <!-- /.content-item -->
                 <div class="content-wrapper brand-wrapper">
-                    <div class="content-imgBx brand-imgBx"><img src="./images/content/main-images/brand.png" alt=""></div>
+                    <div class="content-imgBx brand-imgBx">
+                        <img class="parallax" src="./images/content/parallax/brand.jpg" alt="">
+                        <img class="mobile" src="./images/content/main-images/brand.png" alt="">
+                    </div>
                 </div>
                 <!-- /.content-wrapper -->
             </div>
@@ -669,8 +672,8 @@
             <h2 class="modal__title">Запись на ремонт</h2>
             <p class="modal__subtitle">Оставьте свои контактные данные для записи. Мы перезвоним вам в течение 15 минут.</p>
             <form action="" class="modal-form">
-                <div class="modal-inputBx"><input type="text" placeholder="Имя"></div>
-                <div class="modal-inputBx"><input type="text" placeholder="Номер телефона"></div>
+                <div class="modal-inputBx"><input type="text" placeholder="Имя" required></div>
+                <div class="modal-inputBx"><input type="text" placeholder="Номер телефона" required></div>
                 <button class="modal__button primary-button" type="submit">Записаться на ремонт</button>
                 <p class="modal__notice">Отправляя свои данные вы соглашаетесь с политикой обработки данных нашего сайта</p>
             </form>
@@ -716,8 +719,8 @@
                 перезвоним вам в течение 15 минут.</p>
             <form action="" class="provide-form">
                 <div class="provide-form-inputBx">
-                    <input type="text" placeholder="Имя" class="animate-input">
-                    <input type="text" placeholder="Номер телефона" class="animate-input">
+                    <input type="text" placeholder="Имя" class="animate-input" required>
+                    <input type="text" placeholder="Номер телефона" class="animate-input" required>
                 </div>
                 <button class="provide-form__button primary-button">Записаться на ремонт</button>
                 <p class="provide-form__notice">Отправляя свои данные вы соглашаетесь с политикой
@@ -743,7 +746,17 @@
             <!-- /.provide-success -->
         </div>
     </div>
-    <!-- /.provide-formBx --></main>
+    <!-- /.provide-formBx -->
+    <svg width="0" height="0" viewBox="0 0 1093 1018" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Assets" fill="none">
+            <defs>
+                <clipPath id="main" clipPathUnits="objectBoundingBox" transform="scale(0.00091575091, 0.00098328416)">
+                    <path d="M118.506 79.5117C143.647 15.2168 216.15 -16.5238 280.445 8.61717C377.696 46.6448 463.604 114.071 472.108 227.977C475.717 276.304 463.415 319.903 449.187 354.328C434.851 389.012 415.387 421.839 396.729 450.585C381.609 473.882 364.671 497.993 349.047 520.232C345.467 525.328 341.955 530.326 338.551 535.194C319.396 562.579 302.32 587.628 287.844 611.955C257.064 663.68 261.864 663.381 263 682.033C280.963 701.453 260.271 716.159 309.864 761.396C312.847 764.117 316.643 765.877 320.676 766.061C331.773 766.566 339.968 764.064 353.13 755.026C368.823 744.249 391.473 720.505 409.427 669.518C471.263 493.903 593.581 385.458 737.516 365.695C877.089 346.531 1014.11 416.421 1078.9 544.668C1110.03 606.287 1085.32 681.474 1023.7 712.604C962.078 743.734 886.891 719.017 855.761 657.399C839.72 625.646 806.742 608.536 771.523 613.372C740.665 617.609 683.399 644.164 645.236 752.549C613.189 843.562 561.978 914.876 494.656 961.109C427.121 1007.49 350.458 1023.58 278.387 1015.1C140.076 998.824 10.2817 888.304 0.562307 728.628C-5.30234 632.28 35.7977 546.637 73.0039 484.112C92.5206 451.314 114.134 419.863 133.689 391.905C137.799 386.029 141.785 380.352 145.657 374.838C161.054 352.912 174.649 333.551 187.025 314.482C202.441 290.729 212.395 272.742 218.144 258.833C218.628 257.662 219.061 256.569 219.449 255.552C213.397 251.926 203.899 247.119 189.401 241.45C125.106 216.309 93.3654 143.807 118.506 79.5117ZM229.013 262.991C228.849 263.024 228.014 262.317 227.001 260.767C228.671 262.182 229.178 262.957 229.013 262.991Z" id="Path"></path>
+                </clipPath>
+            </defs>
+        </g>
+    </svg>
+</main>
 
 </body>
 </html>
